@@ -1,0 +1,10 @@
+body {
+  display: flex;
+  transform: transformX(10px);
+  background-color: $white;
+  color: $black;
+
+  h1.variableRoot {
+    background-color: $black;
+  }
+}

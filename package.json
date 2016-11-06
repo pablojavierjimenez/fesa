@@ -1,0 +1,11 @@
+{
+  "name": "fesa",
+  "version": "0.0.1",
+  "description": "crear un stack para comenzar cualquier proyecto",
+  "main": "index.js",
+  "author": "pablo javier jimenez",
+  "license": "MIT",
+  "scripts": {
+    "test": "test"
+  }
+}
