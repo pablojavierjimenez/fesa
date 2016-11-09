@@ -1,5 +1,4 @@
 node_modules
-example-handlebar/node_modules
 bower_components
 npm-debug.log
 public/
@@ -8,4 +7,3 @@ dist
 .idea
 .vscode
 .sass-cache
-.brackets.json
