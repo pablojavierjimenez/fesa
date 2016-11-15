@@ -1,0 +1,13 @@
+*{
+  font-family: sans-serif;
+  margin: .2rem;
+  padding: .4rem;
+}
+body {
+  font-size: 16px;
+  display: flex;
+  transform: transformX(10px);
+  color: $black;
+  &.variableRoot {
+  }
+}
