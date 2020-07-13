@@ -1,6 +1,7 @@
 Front End Start Application
 ===========================
 - [Installation](#installation)
+- [How Run This Project](#How-Run-This-Project)
 - [Develoment Tacks](#develoment-tacks)
   - [Run server](#run-server)
   - [Build](#build)
@@ -16,6 +17,7 @@ Installation
 - Prerequisites (see _[Technology Stack](#technology-stack)_):
 
     * [NodeJS with npm](https://nodejs.org/en/)
+    * [Install NVM](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04) link al repositorio de [NVM en Github](https://github.com/nvm-sh/nvm#installing-and-updating)
     * [Gulp](https://www.npmjs.com/package/gulp)
     * [Yarn](https://www.npmjs.com/package/yarn) also see [this article](https://scotch.io/tutorials/yarn-package-manager-an-improvement-over-npm)
     * on Windows machines maybe requires [Visual Studio 2013 WD](https://www.visualstudio.com/downloads/download-visual-studio-vs#d-express-windows-desktop)
@@ -29,7 +31,17 @@ Installation
     yarn
     ```
 
-
+How Run This Project
+--------------------
+```bash
+# if you already have this nvm node version installed keep this command
+:~$ nvm install v8.17.0
+# switch node vercion  
+:~$ nvm use v8.17.0
+# to run project
+:~$ cd fileInclude-sass-browserify
+:~$ gulp dev
+```
 
 
 ----
